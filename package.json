@@ -1,13 +1,15 @@
 {
-  "name": "vue-qrcode-reader",
+  "name": "@vpulim/vue-qrcode-reader",
   "description": "A set of Vue.js components for detecting and decoding QR codes.",
-  "version": "0.0.0-development",
-  "author": {
-    "name": "Niklas Gruhn",
-    "email": "niklas@gruhn.me"
+  "version": "0.0.1",
+  "author": "Niklas Gruhn <niklas@gruhn.me>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vpulim/vue-qrcode-reader.git"
   },
-  "repository": "github:gruhn/vue-qrcode-reader",
-  "bugs": "https://github.com/gruhn/vue-qrcode-reader/issues",
+  "bugs": {
+    "url": "https://github.com/vpulim/vue-qrcode-reader/issues"
+  },
   "homepage": "https://gruhn.github.io/vue-qrcode-reader",
   "main": "dist/VueQrcodeReader.common.js",
   "unpkg": "dist/VueQrcodeReader.umd.min.js",
@@ -57,5 +59,8 @@
       "vue-cli-service lint",
       "git add"
     ]
+  },
+  "directories": {
+    "doc": "docs"
   }
 }
